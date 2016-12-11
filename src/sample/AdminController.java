@@ -30,7 +30,6 @@ public class AdminController {
             AdminController c = new AdminController() ;
 
 
-
             String query= "INSERT INTO admin (nomprenom, binome, sujet, salle, date, heure, encadrant) VALUES ('"+nomprenom+"', '"+binome+"', '"+sujet+"', '"+salle+"', '"+date.toString()+"', '"+heure+"', '"+encadrant+"')";
             db.connect();
             db.getStatement().executeUpdate(query);
