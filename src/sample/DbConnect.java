@@ -30,18 +30,7 @@ public class DbConnect {
 
     Connection conn =null ;
     Statement stmt = null;
-    //Constructeur DBconnect
-    /* public DbConnect(String nom_prenom , String binome,String sujet, String salle, String date, String heure,
-                     String encadrant){
-        nom_prenom = nom_prenom ;
-        binome = binome;
-        sujet = sujet;
-        salle = salle ;
-        date = date;
-        heure = heure;
-        encadrant = encadrant;
-    }
-    */
+
     public DbConnect(String name , String pass){
         login = name ;
         password = pass;
